@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Simple weather-themed icon: sun + cloud -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4facfe"/>
+      <stop offset="100%" stop-color="#00f2fe"/>
+    </linearGradient>
+  </defs>
+  <!-- Sun -->
+  <circle cx="22" cy="22" r="8" fill="#FFC857"/>
+  <!-- Sun rays -->
+  <g stroke="#FFC857" stroke-width="2" stroke-linecap="round">
+    <line x1="22" y1="8" x2="22" y2="4"/>
+    <line x1="22" y1="40" x2="22" y2="44"/>
+    <line x1="8" y1="22" x2="4" y2="22"/>
+    <line x1="40" y1="22" x2="44" y2="22"/>
+    <line x1="12" y1="12" x2="9" y2="9"/>
+    <line x1="32" y1="12" x2="35" y2="9"/>
+    <line x1="12" y1="32" x2="9" y2="35"/>
+    <line x1="32" y1="32" x2="35" y2="35"/>
+  </g>
+  <!-- Cloud -->
+  <g>
+    <path d="M42 48H22a8 8 0 0 1-1.2-15.9A10 10 0 0 1 38 28c4.6 0 8.5 3 9.7 7.2A7 7 0 0 1 42 48z" fill="url(#g)"/>
+  </g>
+</svg>
+
+
